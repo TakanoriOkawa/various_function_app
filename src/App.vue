@@ -3,7 +3,8 @@
     <router-view />
     <div id="nav">
       <router-link to="/">Top</router-link> |
-      <router-link to="/sound">Sound</router-link>
+      <router-link to="/sound">Sound</router-link> |
+      <router-link to="/weather">Weather</router-link>
     </div>
   </div>
 </template>

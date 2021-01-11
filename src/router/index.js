@@ -1,7 +1,8 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
 import music from "../views/sound";
-// import Home from "../App.vue";
+import weather from "../views/weather";
+
 
 Vue.use(VueRouter);
 
@@ -11,11 +12,11 @@ const routes = [
     name: "sound",
     component: music
   },
-  // {
-  //   path: "/",
-  //   name: "Home",
-  //   component: Home,
-  // }
+  {
+    path: "/weather",
+    name: "weather",
+    component: weather,
+  }
 ];
 
 const router = new VueRouter({
