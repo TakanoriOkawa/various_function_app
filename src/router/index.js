@@ -3,6 +3,7 @@ import VueRouter from "vue-router";
 import music from "../views/sound";
 import weather from "../views/weather";
 import home from "../views/home";
+import bookMark from "../views/bookMark";
 
 Vue.use(VueRouter);
 
@@ -16,6 +17,11 @@ const routes = [
     path: "/weather",
     name: "weather",
     component: weather,
+  },
+  {
+    path: "/bookmark",
+    name: "bookMark",
+    component: bookMark,
   },
   {
     path: "/",

@@ -5,7 +5,8 @@
       <h2>- Menu -</h2>
       <router-link to="/">Home</router-link> |
       <router-link to="/sound">Sound</router-link> |
-      <router-link to="/weather">Weather</router-link>
+      <router-link to="/weather">Weather</router-link> |
+      <router-link to="/bookmark">BookMark</router-link> |
     </div>
   </div>
 </template>
