@@ -16,6 +16,7 @@
                     <!-- 削除ボタンを追加 index番号を引数に-->
                     <button @click="removeLinks(index)" class="remove">削除</button>
                 </li>
+                
             </ul>
         </div>
         <div class="right">
